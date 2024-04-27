@@ -6,7 +6,7 @@ import Portfolio from "./routes/portfolio/Portfolio";
 import Blog from "./routes/blog/Blog";
 import Pricing from "./routes/pricing/Pricing";
 import "./css/bootstrap.min.css";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import Services from "./routes/service/Services";
 import Contact from "./routes/contact/Contact";
 import Nav from "./Components/navbar/Nav";
@@ -17,7 +17,7 @@ function App() {
  
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app">
         <Preloader/>
         <Nav />
@@ -29,7 +29,7 @@ function App() {
         <Pricing />
         <Contact />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
