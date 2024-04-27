@@ -1,0 +1,55 @@
+#Blog{
+    background-color:#aeabab;
+padding: 100px 0;
+    .card{
+        width: 100%;
+        height: 485px !important;
+        border-radius: 20px;
+        overflow: hidden;
+        cursor: pointer;
+        .card-image{
+            overflow: hidden;
+            height: 45%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &:hover img{
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+        .card-body {
+            a{
+                color: #444;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+      
+    }
+}
+
+.veiw{
+    margin-top: 50px;
+    padding: 10px 30px;
+    border: 1px solid #212529;
+    font-size: 16px;
+    display: inline-block;
+    color: #212529;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s ease-in-out;
+    &:hover{
+        background-color: #212529;
+        color: white;
+    }
+}
+
+
+@media (max-width:767px) {
+    #Blog{
+        .card{
+            margin-top: 20px;
+        }
+    }
+}

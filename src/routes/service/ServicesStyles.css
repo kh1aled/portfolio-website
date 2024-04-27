@@ -1,0 +1,25 @@
+#Services {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+}
+#Services .card {
+  background-color: #fff;
+  text-align: center;
+  height: 300px;
+  border-radius: 0;
+  border: 0;
+  cursor: pointer;
+}
+#Services .card i {
+  font-size: 40px;
+}
+#Services .card .card-title {
+  padding: 10px 0;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 20px;
+  color: #212529;
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=ServicesStyles.css.map */

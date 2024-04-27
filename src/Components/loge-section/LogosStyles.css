@@ -1,0 +1,17 @@
+.logo-section {
+  width: 100%;
+  height: 250px;
+  background-color: #202020;
+}
+
+@media (max-width: 767px) {
+  .logo-section {
+    width: 100%;
+    height: 100px;
+    background-color: #202020;
+  }
+  .logo-section .nav-item i {
+    font-size: 40px;
+    line-height: 100px;
+  }
+}/*# sourceMappingURL=LogosStyles.css.map */

@@ -1,0 +1,19 @@
+.fotter {
+  background-color: #212529;
+  color: white;
+}
+.fotter .social {
+  float: right;
+}
+.fotter .social .navbar li a {
+  color: #fff;
+}
+.fotter .social .navbar li a::before {
+  border: 1px solid #ffffff;
+}
+.fotter .social .navbar li a:hover::before {
+  background-color: white;
+}
+.fotter .social .navbar li a:hover i {
+  color: black;
+}/*# sourceMappingURL=FotterStyles.css.map */

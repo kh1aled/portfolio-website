@@ -1,0 +1,15 @@
+.main-subtitle-top{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #cacaca;
+    margin-bottom: 10px;
+}
+.main-subtitle-bottom{
+    font-size: 12px;
+    line-height: 25px;
+    color: #afafaf;
+    font-weight: 500;
+    letter-spacing: 1px;
+}

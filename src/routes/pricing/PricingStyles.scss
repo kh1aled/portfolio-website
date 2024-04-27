@@ -1,0 +1,101 @@
+#Pricing {
+    padding: 100px 0;
+    overflow: hidden;
+    .heading {
+        padding: 20px;
+    }
+    .row > * {
+        padding: 0 !important;
+    }
+   
+    .card2 {
+        
+            transform: translateY(-30px);
+      
+        a {
+            background: #cfcfcf !important;
+            border: 0 !important;
+            color: #000000 !important;
+        }
+    }
+    
+    .card2:hover a {
+        color: #ffffff !important;
+        background: #212529 !important;
+    }
+    .card {
+        
+        .card-body {
+            i {
+                font-size: 40px;
+
+                padding: 10px 0;
+            }
+            h2 {
+                font-family: montserrat;
+                font-weight: 500;
+                margin-bottom: 10px;
+                color: #202020;
+            }
+            .price_listing {
+                margin: 20px 0;
+                text-align: start;
+                ul li {
+                    font-size: 16px;
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                    line-height: 30px;
+                    color: #212529;
+                    padding-left: 40px;
+                    position: relative;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 50%;
+                        border: 1px solid #212529;
+                        left: -3px;
+                        top: 10px;
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        margin-top: 1px;
+                        width: 6px;
+                        height: 6px;
+                        background: #212529;
+                        border-radius: 50%;
+                        top: 12px;
+                    }
+                }
+            }
+            a {
+                padding: 10px 30px;
+                border: 1px solid #212529;
+                background: #212529;
+                font-size: 16px;
+                margin-bottom: 10px;
+                display: inline-block;
+                color: #ffffff;
+                text-decoration: none;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+
+@media (max-width:767px) {
+    #Pricing {
+        .card{
+            margin-top: 20px;
+        }
+        .card2{
+            transform: translate(0);
+        }
+    }
+}

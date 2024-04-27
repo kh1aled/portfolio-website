@@ -1,0 +1,125 @@
+#About {
+  height: 100vh;
+}
+
+#About a {
+  background-color: black;
+  width: 170px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+}
+
+.about-image {
+  width: 65%;
+  height: 60%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #eaeaea;
+  position: relative;
+  z-index: 2;
+}
+.about-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100% !important;
+}
+
+.about-image::before {
+  position: absolute;
+  content: "";
+  top: -11px;
+  right: -11px;
+  width: 100%;
+  height: 11px;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+.about-image::after {
+  position: absolute;
+  content: "";
+  top: -11px;
+  right: -11px;
+  width: 11px;
+  height: 100%;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+.about_my_skills {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f6f6f6;
+}
+.about_my_skills .mt_skill-progress .mt_skill_bar .progress-title {
+  font-size: 24px;
+}
+.about_my_skills .mt_skill-progress .mt_skill_bar .progress-wrapper {
+  float: right;
+}
+.about_my_skills .mt_skill-progress .mt_skill_bar .progress-wrapper .progress-mark span {
+  font-size: 20px;
+}
+.about_my_skills .mt_skill-progress .mt_skill_bar .progress-outter {
+  width: 100%;
+  height: 7px;
+  border-radius: 2px;
+  background-color: rgb(166, 163, 163);
+  margin: 10px 0;
+  position: relative;
+}
+.about_my_skills .mt_skill-progress .mt_skill_bar .progress-outter span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: #484848;
+  border-radius: 0px 10px 10px 0;
+  transition: width 1.4s ease-in-out;
+  width: 0;
+}
+.about_my_skills .mt_skill-progress .mt_skill_bar .progress-outter span.active {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  #About {
+    height: 200vh;
+  }
+  #About .about-image {
+    width: 60%;
+    height: 75%;
+  }
+  #About .about-image .img {
+    width: 100%;
+    height: 100% !important;
+    position: relative;
+  }
+  .about_my_skills {
+    height: 200vh;
+  }
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  #About {
+    height: 200vh;
+  }
+  #About .about-image {
+    width: 80%;
+    height: 65%;
+  }
+  #About .about-image .img {
+    width: 100%;
+    height: 100% !important;
+    position: relative;
+  }
+  .about_my_skills {
+    height: 200vh;
+  }
+}/*# sourceMappingURL=About.css.map */

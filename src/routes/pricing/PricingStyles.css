@@ -1,0 +1,88 @@
+#Pricing {
+  padding: 100px 0;
+  overflow: hidden;
+}
+#Pricing .heading {
+  padding: 20px;
+}
+#Pricing .row > * {
+  padding: 0 !important;
+}
+#Pricing .card2 {
+  transform: translateY(-30px);
+}
+#Pricing .card2 a {
+  background: #cfcfcf !important;
+  border: 0 !important;
+  color: #000000 !important;
+}
+#Pricing .card2:hover a {
+  color: #ffffff !important;
+  background: #212529 !important;
+}
+#Pricing .card .card-body i {
+  font-size: 40px;
+  padding: 10px 0;
+}
+#Pricing .card .card-body h2 {
+  font-family: montserrat;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #202020;
+}
+#Pricing .card .card-body .price_listing {
+  margin: 20px 0;
+  text-align: start;
+}
+#Pricing .card .card-body .price_listing ul li {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+  line-height: 30px;
+  color: #212529;
+  padding-left: 40px;
+  position: relative;
+}
+#Pricing .card .card-body .price_listing ul li::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #212529;
+  left: -3px;
+  top: 10px;
+}
+#Pricing .card .card-body .price_listing ul li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  margin-top: 1px;
+  width: 6px;
+  height: 6px;
+  background: #212529;
+  border-radius: 50%;
+  top: 12px;
+}
+#Pricing .card .card-body a {
+  padding: 10px 30px;
+  border: 1px solid #212529;
+  background: #212529;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  #Pricing .card {
+    margin-top: 20px;
+  }
+  #Pricing .card2 {
+    transform: translate(0);
+  }
+}/*# sourceMappingURL=PricingStyles.css.map */

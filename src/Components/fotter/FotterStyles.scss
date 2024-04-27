@@ -1,0 +1,23 @@
+
+.fotter{
+    background-color: #212529;
+    color: white;
+    
+    .social{
+        float: right;
+        .navbar li {
+            a{
+                color: #fff;
+                &::before{
+                    border: 1px solid #ffffff;
+                }
+                &:hover::before {
+                    background-color: white;
+                }
+                &:hover i {
+                   color: black;
+                }
+            }
+        }
+    }
+}
